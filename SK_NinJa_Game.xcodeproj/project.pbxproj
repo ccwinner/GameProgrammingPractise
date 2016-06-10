@@ -1,0 +1,342 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5D4EF4D91D091CDC005FBA71 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D4EF4D81D091CDC005FBA71 /* main.m */; };
+		5D4EF4DC1D091CDC005FBA71 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D4EF4DB1D091CDC005FBA71 /* AppDelegate.m */; };
+		5D4EF4DF1D091CDC005FBA71 /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D4EF4DE1D091CDC005FBA71 /* GameScene.m */; };
+		5D4EF4E41D091CDC005FBA71 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D4EF4E31D091CDC005FBA71 /* GameViewController.m */; };
+		5D4EF4E71D091CDC005FBA71 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D4EF4E51D091CDC005FBA71 /* Main.storyboard */; };
+		5D4EF4E91D091CDC005FBA71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D4EF4E81D091CDC005FBA71 /* Assets.xcassets */; };
+		5D4EF4EC1D091CDC005FBA71 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D4EF4EA1D091CDC005FBA71 /* LaunchScreen.storyboard */; };
+		5D4EF4F71D092186005FBA71 /* background-music-aac.caf in Resources */ = {isa = PBXBuildFile; fileRef = 5D4EF4F41D092186005FBA71 /* background-music-aac.caf */; };
+		5D4EF4F81D092186005FBA71 /* pew-pew-lei.caf in Resources */ = {isa = PBXBuildFile; fileRef = 5D4EF4F51D092186005FBA71 /* pew-pew-lei.caf */; };
+		5D4EF4F91D092186005FBA71 /* sprites.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 5D4EF4F61D092186005FBA71 /* sprites.atlas */; };
+		5D4EF4FC1D0AA36A005FBA71 /* GameOverScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D4EF4FB1D0AA36A005FBA71 /* GameOverScene.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5D4EF4D41D091CDC005FBA71 /* SK_NinJa_Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SK_NinJa_Game.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D4EF4D81D091CDC005FBA71 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5D4EF4DA1D091CDC005FBA71 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5D4EF4DB1D091CDC005FBA71 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5D4EF4DD1D091CDC005FBA71 /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		5D4EF4DE1D091CDC005FBA71 /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		5D4EF4E21D091CDC005FBA71 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		5D4EF4E31D091CDC005FBA71 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		5D4EF4E61D091CDC005FBA71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5D4EF4E81D091CDC005FBA71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5D4EF4EB1D091CDC005FBA71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5D4EF4ED1D091CDC005FBA71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D4EF4F41D092186005FBA71 /* background-music-aac.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "background-music-aac.caf"; sourceTree = "<group>"; };
+		5D4EF4F51D092186005FBA71 /* pew-pew-lei.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "pew-pew-lei.caf"; sourceTree = "<group>"; };
+		5D4EF4F61D092186005FBA71 /* sprites.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = sprites.atlas; sourceTree = "<group>"; };
+		5D4EF4FA1D0AA36A005FBA71 /* GameOverScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameOverScene.h; sourceTree = "<group>"; };
+		5D4EF4FB1D0AA36A005FBA71 /* GameOverScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameOverScene.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5D4EF4D11D091CDC005FBA71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5D4EF4CB1D091CDC005FBA71 = {
+			isa = PBXGroup;
+			children = (
+				5D4EF4D61D091CDC005FBA71 /* SK_NinJa_Game */,
+				5D4EF4D51D091CDC005FBA71 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5D4EF4D51D091CDC005FBA71 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D4EF4D41D091CDC005FBA71 /* SK_NinJa_Game.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5D4EF4D61D091CDC005FBA71 /* SK_NinJa_Game */ = {
+			isa = PBXGroup;
+			children = (
+				5D4EF4DA1D091CDC005FBA71 /* AppDelegate.h */,
+				5D4EF4DB1D091CDC005FBA71 /* AppDelegate.m */,
+				5D4EF4F31D092186005FBA71 /* Sounds */,
+				5D4EF4F61D092186005FBA71 /* sprites.atlas */,
+				5D4EF4DD1D091CDC005FBA71 /* GameScene.h */,
+				5D4EF4DE1D091CDC005FBA71 /* GameScene.m */,
+				5D4EF4FA1D0AA36A005FBA71 /* GameOverScene.h */,
+				5D4EF4FB1D0AA36A005FBA71 /* GameOverScene.m */,
+				5D4EF4E21D091CDC005FBA71 /* GameViewController.h */,
+				5D4EF4E31D091CDC005FBA71 /* GameViewController.m */,
+				5D4EF4E51D091CDC005FBA71 /* Main.storyboard */,
+				5D4EF4E81D091CDC005FBA71 /* Assets.xcassets */,
+				5D4EF4EA1D091CDC005FBA71 /* LaunchScreen.storyboard */,
+				5D4EF4ED1D091CDC005FBA71 /* Info.plist */,
+				5D4EF4D71D091CDC005FBA71 /* Supporting Files */,
+			);
+			path = SK_NinJa_Game;
+			sourceTree = "<group>";
+		};
+		5D4EF4D71D091CDC005FBA71 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5D4EF4D81D091CDC005FBA71 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5D4EF4F31D092186005FBA71 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				5D4EF4F41D092186005FBA71 /* background-music-aac.caf */,
+				5D4EF4F51D092186005FBA71 /* pew-pew-lei.caf */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5D4EF4D31D091CDC005FBA71 /* SK_NinJa_Game */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D4EF4F01D091CDC005FBA71 /* Build configuration list for PBXNativeTarget "SK_NinJa_Game" */;
+			buildPhases = (
+				5D4EF4D01D091CDC005FBA71 /* Sources */,
+				5D4EF4D11D091CDC005FBA71 /* Frameworks */,
+				5D4EF4D21D091CDC005FBA71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SK_NinJa_Game;
+			productName = SK_NinJa_Game;
+			productReference = 5D4EF4D41D091CDC005FBA71 /* SK_NinJa_Game.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5D4EF4CC1D091CDC005FBA71 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = ccwinner;
+				TargetAttributes = {
+					5D4EF4D31D091CDC005FBA71 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 5D4EF4CF1D091CDC005FBA71 /* Build configuration list for PBXProject "SK_NinJa_Game" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5D4EF4CB1D091CDC005FBA71;
+			productRefGroup = 5D4EF4D51D091CDC005FBA71 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5D4EF4D31D091CDC005FBA71 /* SK_NinJa_Game */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5D4EF4D21D091CDC005FBA71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D4EF4F71D092186005FBA71 /* background-music-aac.caf in Resources */,
+				5D4EF4EC1D091CDC005FBA71 /* LaunchScreen.storyboard in Resources */,
+				5D4EF4E91D091CDC005FBA71 /* Assets.xcassets in Resources */,
+				5D4EF4F81D092186005FBA71 /* pew-pew-lei.caf in Resources */,
+				5D4EF4F91D092186005FBA71 /* sprites.atlas in Resources */,
+				5D4EF4E71D091CDC005FBA71 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5D4EF4D01D091CDC005FBA71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D4EF4FC1D0AA36A005FBA71 /* GameOverScene.m in Sources */,
+				5D4EF4E41D091CDC005FBA71 /* GameViewController.m in Sources */,
+				5D4EF4DC1D091CDC005FBA71 /* AppDelegate.m in Sources */,
+				5D4EF4DF1D091CDC005FBA71 /* GameScene.m in Sources */,
+				5D4EF4D91D091CDC005FBA71 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5D4EF4E51D091CDC005FBA71 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D4EF4E61D091CDC005FBA71 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5D4EF4EA1D091CDC005FBA71 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D4EF4EB1D091CDC005FBA71 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5D4EF4EE1D091CDC005FBA71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5D4EF4EF1D091CDC005FBA71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5D4EF4F11D091CDC005FBA71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SK_NinJa_Game/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ccwinner.SK-NinJa-Game";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5D4EF4F21D091CDC005FBA71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SK_NinJa_Game/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ccwinner.SK-NinJa-Game";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5D4EF4CF1D091CDC005FBA71 /* Build configuration list for PBXProject "SK_NinJa_Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D4EF4EE1D091CDC005FBA71 /* Debug */,
+				5D4EF4EF1D091CDC005FBA71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D4EF4F01D091CDC005FBA71 /* Build configuration list for PBXNativeTarget "SK_NinJa_Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D4EF4F11D091CDC005FBA71 /* Debug */,
+				5D4EF4F21D091CDC005FBA71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5D4EF4CC1D091CDC005FBA71 /* Project object */;
+}
